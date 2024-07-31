@@ -1,0 +1,17 @@
+[
+  {
+    "Sourcefile": null,
+    "Include": "",
+    "Includepath": "C:\\Users\\Syku\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.0.3\\cores\\esp32"
+  },
+  {
+    "Sourcefile": null,
+    "Include": "",
+    "Includepath": "C:\\Users\\Syku\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.0.3\\variants\\esp32"
+  },
+  {
+    "Sourcefile": "C:\\Users\\Syku\\Downloads\\TERRALITH\\build\\sketch\\TERRALITH.ino.cpp",
+    "Include": "",
+    "Includepath": null
+  }
+]

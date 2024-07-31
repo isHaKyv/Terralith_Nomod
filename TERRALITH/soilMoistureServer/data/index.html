@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medidores de Humedad, Temperatura y Proximidad</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            <div class="percent" id="moisture">0%</div>
+            <div class="water" id="water">
+                <svg class="water_wave water_wave_back" viewBox="0 0 560 20" preserveAspectRatio="none">
+                    <path d="M560 20V0H0v20c30 0 55-15 85-15s50 15 85 15 55-15 85-15 50 15 85 15 55-15 85-15 50 15 85 15z"></path>
+                </svg>
+                <svg class="water_wave water_wave_front" viewBox="0 0 560 20" preserveAspectRatio="none">
+                    <path d="M560 20V0H0v20c30 0 55-15 85-15s50 15 85 15 55-15 85-15 50 15 85 15 55-15 85-15 50 15 85 15z"></path>
+                </svg>
+            </div>
+        </div>
+        <div class="box">
+            <div class="percent" id="temperature">0°C</div>
+        </div>
+        <div class="box">
+            <div class="percent" id="proximity">0</div>
+        </div>
+    </div>
+    <div id="statusMsg" class="bottom-text">Status</div>
+    <script src="script.js"></script>
+</body>
+</html>

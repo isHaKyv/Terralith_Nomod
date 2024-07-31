@@ -1,0 +1,199 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.container {
+    display: flex;
+    width: 80%;
+    height: 80%;
+    background: url('/mnt/data/image.png') no-repeat right;
+    background-size: contain;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    border-radius: 5px;
+}
+
+.terrario-list {
+    flex: 1;
+    max-width: 40%;
+    background-color: #D9D9D9;
+    padding: 20px;
+    position: relative;
+    overflow-y: auto;
+    border-radius: 5px;
+}
+
+.terrario-list h2 {
+    margin: 0 0 20px 0;
+}
+
+#terrario-items {
+    margin-bottom: 60px;
+}
+
+.add-button {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    font-size: 24px;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.info-panel {
+    flex: 1;
+    padding: 20px;
+    background-color: #e2e2e2;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+.info-panel h2 {
+    margin: 0 0 20px 0;
+}
+
+.info-panel img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.info-panel p {
+    margin: 10px 0;
+}
+
+#view-data-btn {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#view-data-btn:hover {
+    background-color: #45a049;
+}
+
+/* Modal Styles */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content {
+    background-color: #fff;
+    margin: 10% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 500px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    text-align: center;
+}
+
+.close-btn {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close-btn:hover,
+.close-btn:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+form label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+form input[type="text"],
+form input[type="file"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+form button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+form button:hover {
+    background-color: #45a049;
+}
+
+/* Estilos para los elementos de terrario */
+.terrario-item {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: #B0B0B0;
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    border-radius: 5px;
+}
+
+.terrario-item:hover {
+    background-color: #A0A0A0;
+}
+
+.terrario-item p {
+    margin: 0;
+    padding-left: 10px;
+    font-size: 16px;
+    flex: 1;
+}
+
+.terrario-item img {
+    height: 50px;
+    width: 50px;
+    object-fit: cover;
+}
+
+.image-container {
+    width: 50%;
+    overflow: hidden;
+   
+}
+
+.side-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+

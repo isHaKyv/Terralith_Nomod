@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro de Terrarios</title>
+    <link rel="stylesheet" href="TerrarioInfo.css">
+</head>
+<body>
+    <div class="container">
+        <div class="image-container">
+            <img src="./images/Terrario5.jpg" alt="Terrario" class="side-image">
+        </div>
+        <div class="terrario-list">
+            <h2>Terrarios Guardados</h2>
+            <div id="terrario-items"></div>
+            <button id="add-terrario-btn" class="add-button">+</button>
+        </div>
+        <div id="info-panel" class="info-panel hidden">
+            <h2>INFORMACION</h2>
+            <img id="info-img" src="" alt="Terrario">
+            <p id="info-date">Fecha de Registro: --/--/--</p>
+            <p id="info-data">Últimos Datos Guardados: --</p>
+            <button id="view-data-btn">VER DATOS</button>
+        </div>
+    </div>
+
+    <!-- Modal para agregar nuevo terrario -->
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn">&times;</span>
+            <h2>Agregar Nuevo Terrario</h2>
+            <form id="terrario-form">
+                <label for="terrario-name">Nombre del Terrario:</label>
+                <input type="text" id="terrario-name" required>
+                <label for="terrario-img">Foto del Terrario:</label>
+                <input type="file" id="terrario-img" accept="image/*" required>
+                <button type="submit" id="crear">Guardar</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="TerrarioInfo.js"></script>
+</body>
+</html>

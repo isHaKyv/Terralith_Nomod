@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register - Terralith</title>
+    <link rel="stylesheet" href="Register.css">
+</head>
+<body>
+    <div class="register-container">
+        <div class="image-container">
+            <img src="Terrario2.png" alt="Terrario" class="side-image">
+        </div>
+        <div class="register-form">
+            <div class="logo" onclick="location.href='/Terralith/Terralith.html'">
+                <img src="Terralith.png" alt="Terralith" class="logo">
+            </div>
+            <label for="email">CORREO ELECTRÓNICO</label>
+            <input type="email" id="email" name="email" required>
+            <label for="username">USERNAME</label>
+            <input type="text" id="username" name="username" required>
+            <label for="password">PASSWORD</label>
+            <input type="password" id="password" name="password" required>
+            <button id="register-button">Registrarse</button>
+            <p class="login-link">¿Ya tienes cuenta? <a href="/Login/Login.html">Inicia sesión</a></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

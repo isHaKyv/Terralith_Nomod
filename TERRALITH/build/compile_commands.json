@@ -1,0 +1,41 @@
+[
+ {
+  "directory": "c:\\Users\\Syku\\Downloads\\TERRALITH",
+  "arguments": [
+   "C:\\Users\\Syku\\AppData\\Local\\Arduino15\\packages\\esp32\\tools\\esp-x32\\2302/bin/xtensa-esp32-elf-g++",
+   "-MMD",
+   "-c",
+   "@C:\\Users\\Syku\\AppData\\Local\\Arduino15\\packages\\esp32\\tools\\esp32-arduino-libs\\idf-release_v5.1-dc859c1e67\\esp32/flags/cpp_flags",
+   "-w",
+   "-Os",
+   "-DF_CPU=240000000L",
+   "-DARDUINO=10607",
+   "-DARDUINO_ESP32_DEV",
+   "-DARDUINO_ARCH_ESP32",
+   "-DARDUINO_BOARD=\"ESP32_DEV\"",
+   "-DARDUINO_VARIANT=\"esp32\"",
+   "-DARDUINO_PARTITION_default",
+   "-DARDUINO_HOST_OS=\"windows\"",
+   "-DARDUINO_FQBN=\"esp32:esp32:esp32:JTAGAdapter=default,PSRAM=disabled,PartitionScheme=default,CPUFreq=240,FlashMode=qio,FlashFreq=80,FlashSize=4M,UploadSpeed=115200,LoopCore=1,EventsCore=1,DebugLevel=none,EraseFlash=none,ZigbeeMode=default\"",
+   "-DESP32",
+   "-DCORE_DEBUG_LEVEL=0",
+   "-DARDUINO_RUNNING_CORE=1",
+   "-DARDUINO_EVENT_RUNNING_CORE=1",
+   "-DARDUINO_USB_CDC_ON_BOOT=0",
+   "@C:\\Users\\Syku\\AppData\\Local\\Arduino15\\packages\\esp32\\tools\\esp32-arduino-libs\\idf-release_v5.1-dc859c1e67\\esp32/flags/defines",
+   "-IC:\\Users\\Syku\\Downloads\\TERRALITH",
+   "-iprefix",
+   "C:\\Users\\Syku\\AppData\\Local\\Arduino15\\packages\\esp32\\tools\\esp32-arduino-libs\\idf-release_v5.1-dc859c1e67\\esp32/include/",
+   "@C:\\Users\\Syku\\AppData\\Local\\Arduino15\\packages\\esp32\\tools\\esp32-arduino-libs\\idf-release_v5.1-dc859c1e67\\esp32/flags/includes",
+   "-IC:\\Users\\Syku\\AppData\\Local\\Arduino15\\packages\\esp32\\tools\\esp32-arduino-libs\\idf-release_v5.1-dc859c1e67\\esp32/qio_qspi/include",
+   "-IC:\\Users\\Syku\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.0.3\\cores\\esp32",
+   "-IC:\\Users\\Syku\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.0.3\\variants\\esp32",
+   "@C:\\Users\\Syku\\Downloads\\TERRALITH\\build/build_opt.h",
+   "@C:\\Users\\Syku\\Downloads\\TERRALITH\\build/file_opts",
+   "C:\\Users\\Syku\\Downloads\\TERRALITH\\build\\sketch\\TERRALITH.ino.cpp",
+   "-o",
+   "C:\\Users\\Syku\\Downloads\\TERRALITH\\build\\sketch\\TERRALITH.ino.cpp.o"
+  ],
+  "file": "C:\\Users\\Syku\\Downloads\\TERRALITH\\build\\sketch\\TERRALITH.ino.cpp"
+ }
+]
